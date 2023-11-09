@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.15",
+  "id": "17711df0-5312-11ee-92f7-637981016727",
+  "version": "0.0.1",
+  "packageName": "teamswebhook",
+  "developer": {
+    "name": "NOC",
+    "websiteUrl": "https://teamswebhook.azurewebsites.net",
+    "privacyUrl": "https://teamswebhook.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://teamswebhook.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "teams webhook",
+    "full": "teams webhook"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "b039332e-98c0-4bf2-9981-f6da26008bf8",
+      "name": "NOC Assistant",
+      "contentUrl": "https://teamswebhook.azurewebsites.net/nocAssistantTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "teamswebhook.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false
+}

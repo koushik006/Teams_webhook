@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "NOC"
+    },
+    "libraryName": "teamsWebhook",
+    "generator-version": "4.1.0"
+  }
+}
